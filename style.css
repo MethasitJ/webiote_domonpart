@@ -1,0 +1,37 @@
+.card{
+    background:white;
+    border-radius:25px;
+    padding:30px 25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+    
+    height:520px;              /* 🔥 ล็อกความสูงทุกกล่อง */
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.card img{
+    width:100%;
+    height:320px;              /* 🔥 ล็อกความสูงรูป */
+    object-fit:cover;          /* ครอปให้เต็ม */
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.card h3{
+    font-size:16px;
+    margin-bottom:6px;
+}
+
+.card p{
+    font-size:14px;
+    color:#666;
+}
+
+.card span{
+    margin-top:auto;           /* 🔥 ดันตำแหน่งลงล่างสุด */
+    font-size:14px;
+    color:#1e3a8a;
+    font-weight:bold;
+}
